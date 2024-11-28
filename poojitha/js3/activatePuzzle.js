@@ -1,0 +1,65 @@
+
+var options = {
+	solution:            [[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,    'P',    'A',    'R',    'L',    'I',    'A',    'M',    'E',    'N',    'T',   null,   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,   null,   null,   null,   null,    'A',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,    'S',    'E',    'C',    'T',    'I',    'O',    'N',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,   null,   null,   null,   null,    'D',   null,   null,   null,   null,    'P',   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,    'R',   null,   null,   null,    'A',   null,   null,   null,    'L',    'A',    'W',   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,    'I',   null,   null,   null,    'T',   null,   null,    'A',   null,    'R',   null,   null,   null,   null,   null],
+	[null,  null,   null,    'L',    'E',    'G',    'I',    'B',    'L',    'E',   null,   null,    'C',   null,    'D',   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,    'H',   null,   null,   null,    'S',    'U',    'B',    'T',    'L',    'E',   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,    'S',    'T',    'A',    'T',    'E',   null,   null,    'U',   null,    'A',   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,    'S',   null,   null,   null,   null,   null,    'D',   null,    'W',   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,    'G',   null,    'S',   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,    'E',   null,   null,   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,    'C',    'O',    'N',    'S',    'T',    'I',    'T',    'U',    'E',   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+	[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null]],
+
+
+	 index:              [[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,      1,   null,   null,   null,   null,   null,      2,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,      3,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,     10,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,      5,   null,   null,   null,   null,   null,   null,   null,      6,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,      7,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,    '8',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,      9,   null,      4,   null,     11,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,     12,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,     13,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+						 [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null]],
+
+  questions_across: [      "1. Bicameral legislature of India.",
+	                       "3. A distinct part of a document, often used to organize legal texts.",
+	                       "6. Rules that everyone must follow.",
+	                       "8. Clear writing in legal documents.",
+	                       "9.  Often describes nuanced interpretations of constitutional principles or rights.",
+	                       "12. A political entity with a defined territory and government.",
+	                       "13.To establish or create ( less common in usage)."
+],
+
+  questions_down: [                        "2. Official orders or commands that establish legal requirements.",
+                                            "4. What document is presented yearly in Parliament?",
+                                            "5. Referring to legal entitlements or freedoms.",
+                                            "7.  A law enacted by a legislative body",
+                                            "10. can relate to discussions about equality and rights under the Constitution.",
+                                            "11. Plural form of law."],
+
+};
+
+
+cwp_nmsp.activateCWP(document.getElementById("myPuzzle"),false,options);
